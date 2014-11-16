@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a3db4d-03f1-4ead-8849-a990aa19120a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_right_menu.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_right_menu.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
     </list>
     <ignored path="aiw2014guidelines.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,11 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_using_activeadmin.html.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_using_activeadmin.html.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/step5/_using_activeadmin.html.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9452496" vertical-offset="807" max-vertical-offset="1496">
+            <state vertical-scroll-proportion="0.0" vertical-offset="807" max-vertical-offset="1496">
               <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_index.html.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/home/_index.html.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2949527" vertical-offset="0" max-vertical-offset="634">
+              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -82,7 +91,6 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/offcanvas.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/home/about.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/step2/rails_setup.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/step2_controller.rb" />
@@ -107,6 +115,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_right_menu.html.erb" />
         <option value="$PROJECT_DIR$/app/views/step5/_design_database.html.md" />
         <option value="$PROJECT_DIR$/app/views/step5/_using_activeadmin.html.md" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/_index.html.md" />
       </list>
     </option>
   </component>
@@ -727,14 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05592105" vertical-offset="0" max-vertical-offset="608">
-          <caret line="2" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/step2_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05362776" vertical-offset="0" max-vertical-offset="634">
@@ -787,14 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1479">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/step2/git_setup.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.027960526" vertical-offset="0" max-vertical-offset="608">
-          <caret line="1" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -937,8 +931,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/step5/_using_activeadmin.html.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9452496" vertical-offset="807" max-vertical-offset="1496">
+        <state vertical-scroll-proportion="0.0" vertical-offset="807" max-vertical-offset="1496">
           <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/step2/git_setup.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05592105" vertical-offset="0" max-vertical-offset="608">
+          <caret line="2" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.027960526" vertical-offset="0" max-vertical-offset="608">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/_index.html.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2949527" vertical-offset="0" max-vertical-offset="634">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
           <folding />
         </state>
       </provider>
