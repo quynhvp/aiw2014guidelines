@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'step2/rails_setup'
+
+  get 'step2/mysql_setup'
+
+  get 'step2/rails_app'
+
+  get 'step2/git_setup'
+
   get 'home/index'
   get 'home/about'
 

@@ -28,3 +28,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 # Active Link To
 gem 'active_link_to'
+
+# Markdown view parser
+gem 'markdown-rails'

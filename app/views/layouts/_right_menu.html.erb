@@ -2,30 +2,40 @@
   <div class="list-group">
     <a href="#" class="list-group-item active">Menu</a>
     <%= link_to "Step 0: Important notices", root_path, class: "list-group-item" %>
-    <%= link_to "++ Project description", root_path, class: "list-group-item" %>
-    <%= link_to "++ Choosing a domain name", root_path, class: "list-group-item" %>
-    <%= link_to "++ Choosing a group nickname", root_path, class: "list-group-item" %>
+        <%= link_to "++ Project description", root_path, class: "list-group-item" %>
+        <%= link_to "++ Choosing a domain name", root_path, class: "list-group-item" %>
+        <%= link_to "++ Choosing a group nickname", root_path, class: "list-group-item" %>
+
     <%= link_to "Step 1: Project establishments", root_path, class: "list-group-item" %>
-    <%= link_to "++ Using Github", root_path, class: "list-group-item" %>
-    <%= link_to "++ Google Docs", root_path, class: "list-group-item" %>
+        <%= link_to "++ Using Github", root_path, class: "list-group-item" %>
+        <%= link_to "++ Google Docs", root_path, class: "list-group-item" %>
+
     <%= link_to "Step 2: Environment setup", root_path, class: "list-group-item" %>
-    <%= link_to "++ Rails Setup", root_path, class: "list-group-item" %>
-    <%= link_to "++ MySQL Setup", root_path, class: "list-group-item" %>
-    <%= link_to "++ Rails application and bundles", root_path, class: "list-group-item" %>
+        <%= link_to "++ Git Setup", step2_git_setup_path, class: "list-group-item" %>
+        <%= link_to "++ Rails Setup", step2_rails_setup_path, class: "list-group-item" %>
+        <%= link_to "++ MySQL Setup", step2_mysql_setup_path, class: "list-group-item" %>
+        <%= link_to "++ Rails application and bundles", step2_rails_app_path, class: "list-group-item" %>
+
     <%= link_to "Step 3: HTML Template", root_path, class: "list-group-item" %>
+
     <%= link_to "Step 4: Frontend development", root_path, class: "list-group-item" %>
-    <%= link_to "++ Installing bootstrap", root_path, class: "list-group-item" %>
-    <%= link_to "++ Creating bootstrap layout", root_path, class: "list-group-item" %>
-    <%= link_to "++ Test your layout", root_path, class: "list-group-item" %>
-    <%= link_to "++ Create views based on sitemap", root_path, class: "list-group-item" %>
+        <%= link_to "++ Installing bootstrap", root_path, class: "list-group-item" %>
+        <%= link_to "++ Creating bootstrap layout", root_path, class: "list-group-item" %>
+        <%= link_to "++ Test your layout", root_path, class: "list-group-item" %>
+        <%= link_to "++ Create views based on sitemap", root_path, class: "list-group-item" %>
+
     <%= link_to "Step 5: Backend development", root_path, class: "list-group-item" %>
-    <%= link_to "++ Design database", root_path, class: "list-group-item" %>
-    <%= link_to "++ Creating models", root_path, class: "list-group-item" %>
-    <%= link_to "++ Database migrations", root_path, class: "list-group-item" %>
-    <%= link_to "++ Using ActiveAdmin", root_path, class: "list-group-item" %>
+        <%= link_to "++ Design database", root_path, class: "list-group-item" %>
+        <%= link_to "++ Creating models", root_path, class: "list-group-item" %>
+        <%= link_to "++ Database migrations", root_path, class: "list-group-item" %>
+        <%= link_to "++ Using ActiveAdmin", root_path, class: "list-group-item" %>
+
     <%= link_to "Step 6: Data entry-ing", root_path, class: "list-group-item" %>
+
     <%= link_to "Step 7: Testing & Debugging", root_path, class: "list-group-item" %>
+
     <%= link_to "Step 8: Deployment", root_path, class: "list-group-item" %>
+
     <%= link_to "Step 9: Up and Running", root_path, class: "list-group-item" %>
   </div>
 </div><!--/.sidebar-offcanvas-->
