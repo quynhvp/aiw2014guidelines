@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'step5/design_database'
+
+  get 'step5/creating_models'
+
+  get 'step5/database_migrations'
+
+  get 'step5/using_activeadmin'
+
+  get 'step3/index'
+
   get 'step2/rails_setup'
 
   get 'step2/mysql_setup'
