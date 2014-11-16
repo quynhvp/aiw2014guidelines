@@ -55,4 +55,4 @@ Test Rails:
         Rails 4.1.6
 
 Voila! If you see the above lines, it means you have successfully installed Rails on your computer. Now we move to
-the next step to test the application
+the next step to test the application!
