@@ -7,6 +7,7 @@ You can download XAMPP from: [XAMPP download page](https://www.apachefriends.org
 ### Install XAMPP
 
 There's a notice when installing XAMPP, please uncheck the following packages unless you're really using them:
+
 *   Mercury
 *   Tomcat
 *   Filezilla Server

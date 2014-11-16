@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get 'step2/git_setup'
 
+  get 'home/being_updated'
+
   get 'home/index'
   get 'home/about'
 
